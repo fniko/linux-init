@@ -14,6 +14,10 @@ apt_list=(
 cargo
 xclip
 ripgrep
+fonts-powerline
+filezilla
+postman
+mosh
 )
 
 for item in "${apt_list[@]}"; do
@@ -22,22 +26,3 @@ for item in "${apt_list[@]}"; do
   echo "$item is ready!"
   sleep 1
 done
-
-echo "######################"
-echo "Installing dependencies using **cargo**"
-echo "######################"
-
-cargo=(
-starship
-)
-
-for item in "${cargo[@]}"; do
-  echo "Installing $item"
-  cargo install "$item"
-  echo "$item is ready!"
-  sleep 1
-done
-
-#Adding starship
-# shellcheck disable=SC2016
-echo 'eval "$(starship init bash)"' >> ~/.bashrc

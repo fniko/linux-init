@@ -10,3 +10,7 @@ chmod +x installTools.sh
 #Adding aliases
 chmod +x alias.sh
 /bin/bash alias.sh
+
+#Configuring terminal
+chmod +x terminal.sh
+/bin/bash terminal.sh
