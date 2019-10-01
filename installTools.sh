@@ -18,6 +18,7 @@ fonts-powerline
 filezilla
 postman
 mosh
+prey
 )
 
 for item in "${apt_list[@]}"; do
