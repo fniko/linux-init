@@ -4,6 +4,13 @@ echo "Updating packages"
 echo "######################"
 apt update  # To get the latest package lists
 
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
 echo "######################"
 echo "Installing dependencies using **apt install**"
 echo "######################"

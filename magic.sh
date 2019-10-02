@@ -14,3 +14,8 @@ chmod +x alias.sh
 #Configuring terminal
 chmod +x terminal.sh
 /bin/bash terminal.sh
+
+#Install docker
+chmod +x installDocker.sh
+/bin/bash installDocker.sh
+
